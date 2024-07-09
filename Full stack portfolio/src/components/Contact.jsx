@@ -15,7 +15,7 @@ const Contact = () => {
       message: data.email,
     };
     try{
- await axios.post("https://getform.io/f/panvmvpa",userInfo);
+ await axios.post(`${window.location.origin}//getform.io/f/panvmvpa`,userInfo);
  toast.success("your message has been sent ")
     }catch(error){
 console.log(error)
