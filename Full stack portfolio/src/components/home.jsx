@@ -1,18 +1,13 @@
 import React from "react";
-
-
-
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareUpwork } from "react-icons/fa6";
 import { SiFreelancer } from "react-icons/si";
-
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
-
-import { ReactTyped } from "react-typed";
+import ReactTyped from "react-typed";
 
 function Home() {
   return (
@@ -26,7 +21,6 @@ function Home() {
             <span className="text-xl">Welcome In My Feed</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
               <h1>Hello, I'm a</h1>
-              {/* <span >Developer</span> */}
               <ReactTyped
                 className="text-red-700 font-bold"
                 strings={["Developer", "Programmer", "Coder"]}
@@ -37,37 +31,37 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-            Full-Stack Developer specializing in React, Express.js, and databases . Proficient in creating dynamic, responsive web applications with modern JavaScript, HTML, and CSS. Experienced in developing robust backends and seamless front-end experiences.
+              Full-Stack Developer specializing in React, Express.js, and databases. Proficient in creating dynamic, responsive web applications with modern JavaScript, HTML, and CSS. Experienced in developing robust backends and seamless front-end experiences.
             </p>
             <br />
             {/* social media icons */}
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
-              <div className="  space-y-2">
-                <h1 className="font-bold text-center ">Available on</h1>
+              <div className="space-y-2">
+                <h1 className="font-bold text-center">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                       <FaSquareFacebook className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.upwork.com/freelancers/~01bb00e29fb75cf5dc" target="_blank">
-                      <FaSquareUpwork  className="text-2xl cursor-pointer" />
+                    <a href="https://www.upwork.com/freelancers/~01bb00e29fb75cf5dc" target="_blank" rel="noopener noreferrer">
+                      <FaSquareUpwork className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.freelancer.com/" target="_blank">
-                    <SiFreelancer className="text-2xl cursor-pointer" />
+                    <a href="https://www.freelancer.com/" target="_blank" rel="noopener noreferrer">
+                      <SiFreelancer className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                 </ul>
               </div>
-              <div className=" space-y-2">
+              <div className="space-y-2">
                 <h1 className="font-bold text-center">Currently working on</h1>
                 <div className="flex space-x-5">
                   <SiMongodb className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
@@ -80,14 +74,13 @@ function Home() {
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
             <img
-              src="\Full stack portfolio\public\IMG_3306.JPG"
+              src="/Full-Stack-portfolio/IMG_3306.JPG"
               className="rounded-full md:w-[450px] md:h-[450px]"
-              alt=""
+              alt="Profile"
             />
           </div>
         </div>
       </div>
-
       <hr />
     </>
   );

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
+
 function Navbar() {
   const [menu, setMenu] = useState(false);
   const navItems = [
@@ -27,15 +27,16 @@ function Navbar() {
       text: "Contact",
     },
   ];
+
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white">
         <div className="flex justify-between items-center h-16">
-          <div className=" flex space-x-2">
+          <div className="flex space-x-2">
             <img
-              src="\IMG_3306.JPG"
+              src="/Full-Stack-portfolio/IMG_3306.JPG"
               className="h-12 w-12 rounded-full"
-              alt=""
+              alt="Profile"
             />
             <h1 className="font-semibold text-xl cursor-pointer">
               Nida<span className="text-purple-600 text-2xl">fatima</span>
