@@ -49,7 +49,7 @@ function PortFolio() {
                 Pet Care(full stack)
               </div>
               <p className="px-2 text-wrap text-gray-700">
-                This project aims to provide an easy-to-use interface for
+                This project is an easy-to-use interface for
                 managing veterinary appointments, searching for disease
                 information, and accessing tailored dietary plans for pets.
               </p>

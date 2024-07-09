@@ -7,7 +7,7 @@ import Experience from "./components/Experience.jsx"
 import Footer from "./components/Footer.jsx"
 import Contact from "./components/Contact.jsx"
 import toast, { Toaster } from 'react-hot-toast';
-import Port from "./components/Port.jsx"
+
 
 
 
@@ -20,7 +20,7 @@ function App() {
    <Navbar/>
    <Home/>
 <About/>
-{/* <Port/> */}
+
 
 <Portfolio/>
 <Experience/>
