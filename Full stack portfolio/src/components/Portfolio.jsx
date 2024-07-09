@@ -40,6 +40,34 @@ function PortFolio() {
           </div>
           <div className=" mb-3 md:w-[270px] md:h-[390px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300 ">
             <img
+              src="\Screenshot 2024-07-06 184015.png"
+              className="w-[full] h-[120px] p-1  border-[2px] justify-items-center "
+              alt=""
+            />
+            <div>
+              <div className="px-2 font-bold text-xl mb-2 size-15">
+                Pet Care(full stack)
+              </div>
+              <p className="px-2 text-wrap text-gray-700">
+                This project aims to provide an easy-to-use interface for
+                managing veterinary appointments, searching for disease
+                information, and accessing tailored dietary plans for pets.
+              </p>
+            </div>
+            <div className=" px-6 py-4 space-x-3 justify-around">
+              <button
+                className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
+                onClick={() =>
+                  (window.location.href =
+                    "https://github.com/NidaIshaq/work-task")
+                }
+              >
+                Source code
+              </button>
+            </div>
+          </div>
+          <div className=" mb-3 md:w-[270px] md:h-[390px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300 ">
+            <img
               src="\Screenshot 2024-05-24 143802.png"
               className="w-[full] h-[120px] p-1  border-[2px] justify-items-center "
               alt=""
@@ -107,7 +135,6 @@ function PortFolio() {
               <p className="px-2 text-wrap text-gray-700">
                 Hostel Explorer is a web and mobile application targeting people
                 who tend to live in hostels for educational or other purposes.
-               
               </p>
             </div>
             <div className=" px-6 py-4 space-x-3 justify-around">
