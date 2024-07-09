@@ -80,7 +80,7 @@ function Home() {
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
             <img
-              src="Full-Stack-portfolio\Full stack portfolio\public\IMG_3306.JPG"
+              src="\Full stack portfolio\public\IMG_3306.JPG"
               className="rounded-full md:w-[450px] md:h-[450px]"
               alt=""
             />
