@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { IoCloseSharp } from "react-icons/io5";
+import { IoCloseSharp } from 'react-icons/io5';
+
 import { Link } from "react-scroll";
 
 function Navbar() {
@@ -34,7 +35,7 @@ function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex space-x-2">
             <img
-              src="/Full-Stack-portfolio/IMG_3306.JPG"
+              src="\IMG_3306.JPG"
               className="h-12 w-12 rounded-full"
               alt="Profile"
             />

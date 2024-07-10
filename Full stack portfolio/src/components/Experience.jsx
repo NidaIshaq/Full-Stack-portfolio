@@ -1,6 +1,6 @@
 import express from "../../public/express-logo.png";
 import reactjs from "../../public/reactjs.png";
-import database from "../../public/database-logo.jpg";
+import database from "../../public/database logo.jpg";
 import js from "../../public/js.png";
 import c from "../../public/c-logo.png";
 import html from "../../public/html.png";

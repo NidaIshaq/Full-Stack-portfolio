@@ -5,9 +5,9 @@ import { FaSquareUpwork } from "react-icons/fa6";
 import { SiFreelancer } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa6";
-import ReactTyped from "react-typed";
+import{ ReactTyped }from "react-typed";
 
 function Home() {
   return (
@@ -74,7 +74,7 @@ function Home() {
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
             <img
-              src="/Full-Stack-portfolio/IMG_3306.JPG"
+              src="\IMG_3306.JPG"
               className="rounded-full md:w-[450px] md:h-[450px]"
               alt="Profile"
             />

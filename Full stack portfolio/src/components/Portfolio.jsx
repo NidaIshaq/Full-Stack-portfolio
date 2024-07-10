@@ -12,7 +12,7 @@ function PortFolio() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 my-5">
           <div className="mb-3 md:w-[270px] md:h-[390px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300">
             <img
-              src="/Full-Stack-portfolio/Screenshot%202024-06-06%20173750.png"
+              src="\Screenshot 2024-05-15 171351.png"
               className="w-full h-[120px] p-1 border-[2px] justify-items-center"
               alt="Hospital Management System"
             />
@@ -38,7 +38,7 @@ function PortFolio() {
           </div>
           <div className="mb-3 md:w-[270px] md:h-[390px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300">
             <img
-              src="/Full-Stack-portfolio/Screenshot%202024-07-06%20184015.png"
+              src="\Screenshot 2024-07-06 184015.png"
               className="w-full h-[120px] p-1 border-[2px] justify-items-center"
               alt="Pet Care"
             />
@@ -63,7 +63,7 @@ function PortFolio() {
           </div>
           <div className="mb-3 md:w-[270px] md:h-[390px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300">
             <img
-              src="/Full-Stack-portfolio/Screenshot%202024-05-24%20143802.png"
+              src="\Screenshot 2024-05-24 143802.png"
               className="w-full h-[120px] p-1 border-[2px] justify-items-center"
               alt="Skill Up"
             />
@@ -89,7 +89,7 @@ function PortFolio() {
           </div>
           <div className="mb-3 md:w-[270px] md:h-[390px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300">
             <img
-              src="/Full-Stack-portfolio/Screenshot%202024-06-06%20164728.png"
+              src="\Screenshot 2024-06-06 164728.png"
               className="w-full h-[120px] p-1 border-[2px] justify-items-center"
               alt="Interactive Movie and Drama Search Engine"
             />
@@ -115,7 +115,7 @@ function PortFolio() {
           </div>
           <div className="mb-3 md:w-[270px] md:h-[390px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300">
             <img
-              src="/Full-Stack-portfolio/hotel.png"
+              src="\hotel.png"
               className="w-full h-[120px] p-1 border-[2px] justify-items-center"
               alt="Hostel Explorer"
             />
@@ -141,7 +141,7 @@ function PortFolio() {
           </div>
           <div className="mb-3 md:w-[270px] md:h-[390px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300">
             <img
-              src="/Full-Stack-portfolio/pub.png"
+              src="\pub.png"
               className="w-full h-[120px] p-1 border-[2px] justify-items-center"
               alt="InSightInk"
             />
@@ -167,7 +167,7 @@ function PortFolio() {
           </div>
           <div className="mb-3 md:w-[270px] md:h-[390px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300">
             <img
-              src="/Full-Stack-portfolio/Screenshot%202024-06-06%20173750.png"
+              src="\Screenshot 2024-06-06 173750.png"
               className="w-full h-[120px] p-1 border-[2px] justify-items-center"
               alt="Tic Tac Toe"
             />
